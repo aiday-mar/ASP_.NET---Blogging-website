@@ -25,7 +25,7 @@ namespace Blogee.Controllers
             try
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "sqlserver-aiday.database.windows.net";
+                builder.DataSource = "DESKTOP-ULB21CT\\SQLEXPRESS";
                 builder.UserID = "serverusername";
                 builder.Password = "ConnectDB1";
                 builder.InitialCatalog = "Blogee_db";
@@ -101,7 +101,7 @@ namespace Blogee.Controllers
             try
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "sqlserver-aiday.database.windows.net";
+                builder.DataSource = "DESKTOP-ULB21CT\\SQLEXPRESS";
                 builder.UserID = "serverusername";
                 builder.Password = "ConnectDB1";
                 builder.InitialCatalog = "Blogee_db";
